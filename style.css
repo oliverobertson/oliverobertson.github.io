@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(234,221,202);
+    margin: 1em;
+    
+}
+body {
+    font-family: Didot, serif;
+}
+
+h1{
+    font-size: 4em;
+    color: rgb(95, 158, 160);
+    padding: 2em 0em 2em 0em;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: rgb(110,38,14)
+}
+h3{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 4em 0em 0em 0em;
+    color: rgb(110,38,14);
+}
+h4{
+    margin: 2em 0em 0em 0em;
+    font-weight: bold;
+    color: rgb (54,69,79)
+    
+}
+p{
+    margin: 0.4em 0em 0em 0em;
+    color:rgb (54,69,79);
+    font-weight: light;
+}
+ul{
+    font-size: 1em;
+    list-style: none;
+    padding: 0;
+        
+}
