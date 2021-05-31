@@ -1,0 +1,120 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/bms3ckh.css");
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	padding: 0;	border: 0;	vertical-align: baseline;} 
+
+img {
+  width: 100%; 
+}
+html{
+  font-family: montserrat, sans-serif;
+  background: #F4F4ED;
+  color: #474141;
+}
+header {
+  margin-top: 3em;
+  margin-left: 2em;
+}
+nav{
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 3em;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #474141;
+}
+li a {
+  color: #474141;
+  text-align: left;
+  text-decoration: none;
+  margin-right: 3em;
+}
+li a:hover {
+  color: #adf;
+}
+h1 img{
+  width: 3em;
+  padding: 1em;
+}
+h2{
+  font-family: montserrat, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h3{
+  font-family:montserrat, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h4{  
+  font-family:montserrat, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+p{  
+  font-family:montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+article {
+  margin: 2em 2em 5em 2em;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu li{
+  padding: .25em;
+  line-height: 160%;
+  text-align: left;
+}
+
+.menu h3{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: left;
+}
+.menu h4{
+  padding-left: .5em;
+}
+.menu p{
+  padding-left: 1em;
+}
+.about ul{
+  list-style-type:none;
+}
+.contact a{
+  color: #adf;
+}
+footer{
+  background-color: #F5D7D5;
+  color: #474141;
+  padding: 3em;
+}
+footer a{
+  color:#474141;
+}
+@media screen and (min-width: 40em){
+  html{
+      max-width: 55em;
+      margin: auto;
+  }
+  header{
+      display: grid;
+      grid-template-columns: 1fr 5fr;
+  }
+  nav ul{
+      text-align: right;
+  }
+}
