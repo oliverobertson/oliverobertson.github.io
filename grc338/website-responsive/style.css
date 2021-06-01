@@ -65,7 +65,9 @@ p{
   font-weight: 400;
   font-style: normal;
 }
-
+figure {
+  margin: 0em ;
+}
 article {
   margin: 2em 2em 5em 2em;
 }
@@ -73,23 +75,23 @@ article {
   list-style-type: none;
 }
 .menu li{
-  padding: .25em;
+  padding: .0em;
   line-height: 160%;
   text-align: left;
 }
 
 .menu h3{
-  padding-top: .5em;
+  padding-top: .0em;
   padding-bottom: .5em;
   font-size: 1.5em;
   text-transform: uppercase;
   text-align: left;
 }
 .menu h4{
-  padding-left: .5em;
+  padding-left: .0em;
 }
 .menu p{
-  padding-left: 1em;
+  padding-left: 0em;
 }
 .about ul{
   list-style-type:none;
