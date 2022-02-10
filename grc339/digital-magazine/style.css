@@ -1,0 +1,85 @@
+/*CSS document*/
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+  html{
+    font-family: soleil, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #e6e6e2;
+    color: #413d44;
+    padding: 1em;
+  }
+  header {
+    margin-top: 3em;
+  }
+  a {
+      text-decoration: none;
+    }
+  nav{
+    font-family: soleil, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    word-spacing: 1em;
+    
+  }
+  nav ul{
+    text-align: left;
+}
+  nav li {
+    list-style-type: none;
+    display: inline;
+    color: #413d44;
+    text-transform: uppercase;
+  }
+  li a {
+  color: #413d44;
+  text-align: left;
+}
+li a:hover {
+  color: #1f1d20;
+}
+ul {
+    list-style-type: none;
+    padding: 0em;
+}
+h2{
+    font-family: soleil,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h3{
+    font-family: soleil,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p{  
+    font-family: soleil,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  a h3, a p{
+      color: #413d44;
+  }
+  figure img{
+    max-width: 40em;
+    max-height: 20em;
+    object-fit: cover;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  footer{
+    background-color: #e6e6e2;
+    color: #1f1d20;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
